@@ -1,0 +1,57 @@
+<head>
+<script>
+  function func(){
+  var num1 = Number(document.getElementById("first").value);
+  var num2 = Number(document.getElementById("second").value);
+  var plus = num1 + num2;
+  document.getElementById("plus").innerHTML = plus;
+        }
+
+      function func2(){
+        var num3 = Number(document.getElementById("first2").value);
+        var num4 = Number(document.getElementById("second2").value);
+        var min = num3 - num4;
+        document.getElementById("min").innerHTML = min;
+        }
+
+  function func3(){
+        var num5 = Number(document.getElementById("first3").value);
+         var num6 = Number(document.getElementById("second3").value);
+         var pomn = num5 * num6;
+        document.getElementById("pomn").innerHTML = pomn;
+        }
+  function func4(){
+  var num7 = Number(document.getElementById("first4").value);
+  var num8 = Number(document.getElementById("second4").value);
+        var dil = num7 / num8;
+        document.getElementById("dil").innerHTML = dil;
+        }
+      function func5(){
+        var num9 = Number(document.getElementById("first5").value);
+        var num10 = Number(document.getElementById("second5").value);
+         var step =  Math.pow(num9, num10);
+         document.getElementById("step").innerHTML = step;
+        }
+</script>
+</head>
+<body>
+
+<p>
+<input id="first"/> + <input id="second"/> = <output id="plus"/>
+<button onclick="func()">Відповідь</button> 
+</p><p>
+<input id="first2"/> - <input id="second2"/> = <output id="min"/>
+<button onclick="func2()">Відповідь</button>
+</p><p>
+<input id="first3"/> * <input id="second3"/> = <output id="pomn"/>
+<button onclick="func3()">Відповідь</button>
+</p><p>
+<input id="first4"/> / <input id="second4"/> = <output id="dil"/>
+<button onclick="func4()">Відповідь</button>
+</p><p>
+<input id="first5"/> в <input id="second5"/> ступені = <output id="step"/>
+<button onclick="func5()">Відповідь</button>
+</p>
+
+
+</body>
